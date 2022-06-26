@@ -1,0 +1,32 @@
+.page-footer {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--background-black-color);
+}
+
+.page-footer__container {
+  display: flex;
+  align-items: baseline;
+}
+
+.page-footer__address-wrap {
+  margin-right: 70px;
+}
+
+.page-footer__newsletter-wrap {
+  margin-left: auto;
+}
+
+.page-footer__logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.page-footer__subtitle {
+  margin-bottom: 20px;
+  @include font(14px, null, 1.17, 0.03em);
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}

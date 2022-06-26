@@ -1,0 +1,46 @@
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/overlay.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: var(--background-black-color);
+}
+
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.hero__title {
+  width: 696px;
+  margin: 0 auto 30px;
+  @include font(44px, 900, 1.36, 0.06em);
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+.hero__btn {
+  margin: 0 auto;
+  padding: 10px 32px;
+  min-width: 200px;
+  @include font(16px, 700, 1.9, 0.06em);
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  transition: background-color var(--transition-duration-timing);
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
+}

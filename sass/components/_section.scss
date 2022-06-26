@@ -1,0 +1,14 @@
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
+}
+
+.section--padding-bottom {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
+
+.section--background {
+  background-color: var(--secondary-white-color);
+}

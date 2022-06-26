@@ -1,0 +1,26 @@
+.contacts {
+  display: flex;
+}
+
+.contacts__item + .contacts__item {
+  margin-left: 50px;
+}
+
+.contacts__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.contacts__link {
+  display: flex;
+  padding: 32px 0;
+  align-items: center;
+  @include font(14px, 500, 1.14, 0.02em);
+  color: var(--secondary-text-color);
+  transition: color var(--transition-duration-timing);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
